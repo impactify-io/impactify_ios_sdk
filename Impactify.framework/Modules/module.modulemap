@@ -1,0 +1,11 @@
+framework module Impactify {
+  umbrella header "Impactify.h"
+
+  export *
+  module * { export * }
+}
+
+module Impactify.Swift {
+  header "Impactify-Swift.h"
+  requires objc
+}
